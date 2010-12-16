@@ -125,7 +125,7 @@
                     The example colors digits prefixed by foo. (only the digits)             
                 -->    
 
-				<regex>^(.*?):</regex>
+				<regex>^([\w\s\d]*?):</regex>
 
             </keywords>
 
