@@ -200,7 +200,7 @@
                 
             </state>
 
-			<keywords id="Variable" color="#825900">
+			<keywords id="Variables" color="#825900">
 				<regex>((?:\&amp;|\*)\w*?)(?:[^\w]|$)</regex>
 			</keywords>
 
