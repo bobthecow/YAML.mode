@@ -217,7 +217,7 @@
                       
                   
             -->    
-            <state-link state="PHP" mode="PHP-HTML" />
+            <!-- <state-link state="PHP" mode="PHP-HTML" /> -->
 
         </default>
         
