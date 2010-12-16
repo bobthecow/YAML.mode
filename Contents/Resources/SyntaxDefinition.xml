@@ -200,6 +200,10 @@
                 
             </state>
 
+			<keywords id="Variable" color="#825900">
+				<regex>((?:\&amp;|\*)\w*?)(?:[^\w]|$)</regex>
+			</keywords>
+
             <!-- 
                 The <state-link> tag lets you reuse complete states including the
                 begin and end regex as well as the attributes on the linked .
