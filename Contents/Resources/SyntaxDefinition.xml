@@ -146,10 +146,13 @@
                 (see a regex tutorial) and colors "foobar" with strings.
             -->    
     
-    
             <state id="Comment" color="#236E25" font-style="italic">
                 <begin><regex>(?:^|\s)#</regex></begin>
                 <end><regex>[\n\r]</regex></end>
+				<state id="TODO" type="comment" color="#F00" font-weight="bold" useforautocomplete="no" casesensitive="true">
+					<begin><regex>(?:@?TODO|@todo|FIXME)</regex></begin>
+					<end><regex>.?(?=(?:\?&gt;|[\n\r]))</regex></end>
+				</state>
             </state>
 
             <state id="String" color="#760f15">
