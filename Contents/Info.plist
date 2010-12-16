@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>SEEMode.Example Syntax</string> <!-- Change bundle identifier. Must start with "SEEMode." -->
+	<string>SEEMode.YAML</string> <!-- Change bundle identifier. Must start with "SEEMode." -->
 	<key>CFBundleName</key>
 	<string>YAML</string> <!-- Change bundle name. -->
     <key>CFBundleShortVersionString</key>
